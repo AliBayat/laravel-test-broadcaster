@@ -1,11 +1,11 @@
 <?php
 
-namespace Jlndk\TestBroadcaster;
+namespace AliBayat\TestBroadcaster;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Jlndk\TestBroadcaster\TestBroadcaster
+ * @see \AliBayat\TestBroadcaster\TestBroadcaster
  */
 class TestBroadcasterFacade extends Facade
 {

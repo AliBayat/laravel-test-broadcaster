@@ -1,5 +1,5 @@
 {
-    "name": "jlndk/laravel-test-broadcaster",
+    "name": "alibayat/laravel-test-broadcaster",
     "description": "A broadcast provider for testing event broadcasting",
     "keywords": [
         "laravel",
@@ -7,13 +7,13 @@
         "testing",
         "events"
     ],
-    "homepage": "https://github.com/jlndk/laravel-test-broadcaster",
+    "homepage": "https://github.com/AliBayat/laravel-test-broadcaster",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jonas Lindenskov Nielsen",
-            "email": "hi@lindenskov.dev",
-            "homepage": "https://lindenskov.dev",
+            "name": "Ali Bayat",
+            "email": "ali.bayat@live.com",
+            "homepage": "https://github.com/AliBayat",
             "role": "Developer"
         }
     ], 
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jlndk\\TestBroadcaster\\": "src"
+            "AliBayat\\TestBroadcaster\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jlndk\\TestBroadcaster\\Tests\\": "tests"
+            "AliBayat\\TestBroadcaster\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jlndk\\TestBroadcaster\\TestBroadcastServiceProvider"
+                "AliBayat\\TestBroadcaster\\TestBroadcastServiceProvider"
             ],
             "aliases": {
-                "TestBroadcaster": "Jlndk\\TestBroadcaster\\TestBroadcasterFacade"
+                "TestBroadcaster": "AliBayat\\TestBroadcaster\\TestBroadcasterFacade"
             }
         }
     },

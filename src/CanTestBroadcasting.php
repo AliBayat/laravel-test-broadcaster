@@ -1,6 +1,6 @@
 <?php
 
-namespace Jlndk\TestBroadcaster;
+namespace AliBayat\TestBroadcaster;
 
 use Illuminate\Support\Str;
 
