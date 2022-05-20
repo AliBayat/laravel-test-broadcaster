@@ -6,13 +6,14 @@
 
 This package lets you test if Laravel events has been broadcasted. This is useful for TDD and End-to-end testing.
 
+This is a fork from `jlndk/laravel-test-broadcaster`
 
 ## Installation
 
 1. Install the package via composer:
 
 ```bash
-composer require jlndk/laravel-test-broadcaster
+composer require alibayat/laravel-test-broadcaster
 ```
 
 2. Add the test broadcaster to the `connections` array in `app/config/broadcasting.php`.
