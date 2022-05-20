@@ -4,6 +4,7 @@ namespace Jlndk\TestBroadcaster;
 
 use Illuminate\Support\Str;
 
+
 trait CanTestBroadcasting
 {
     public function assertEventBroadcasted($event, $channels = null, $count = null)
